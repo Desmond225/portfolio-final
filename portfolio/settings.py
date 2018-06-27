@@ -25,7 +25,7 @@ SECRET_KEY = 'q+&)fga^&06!osplru=vf%3#bwsj!_3d@4t^d)r=58nx5(di20'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['178.62.194.97']
 
 
 # Application definition
@@ -78,8 +78,8 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'portfoliodb',
-        'USER': 'postgres',
+        'NAME': 'livewebsite',
+        'USER': 'terefs',
         'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432',
